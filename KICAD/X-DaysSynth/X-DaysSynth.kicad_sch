@@ -4550,7 +4550,7 @@
 		(at 139.7 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd8a5d08-73de-4fbf-8cf6-21516ec43062")
+		(uuid "b75543c5-2e49-45b6-a408-8b8aea488081")
 	)
 	(junction
 		(at 168.91 48.26)
@@ -5036,16 +5036,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 152.4) (xy 101.6 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c1a4148-876b-49bf-bd32-c814351d5b2e")
-	)
-	(wire
-		(pts
 			(xy 179.07 138.43) (xy 179.07 115.57)
 		)
 		(stroke
@@ -5083,6 +5073,16 @@
 			(type default)
 		)
 		(uuid "61296ca9-e79f-43c0-a872-da955db66f7f")
+	)
+	(wire
+		(pts
+			(xy 133.35 143.51) (xy 139.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c28713-def6-429c-9914-1d0bba03beeb")
 	)
 	(wire
 		(pts
@@ -5143,6 +5143,16 @@
 			(type default)
 		)
 		(uuid "6cb8ed3a-4f72-4ce4-ac2d-09b445b20d9d")
+	)
+	(wire
+		(pts
+			(xy 133.35 135.89) (xy 133.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d714bd8-84df-4e82-a284-61636d6ea588")
 	)
 	(wire
 		(pts
@@ -5276,7 +5286,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 162.56) (xy 130.81 162.56)
+			(xy 97.79 135.89) (xy 133.35 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5303,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "8de51ef0-53a9-46b5-bb84-555eabbff675")
+	)
+	(wire
+		(pts
+			(xy 97.79 152.4) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f733b7d-4931-4b46-86ee-9280007602f8")
 	)
 	(wire
 		(pts
@@ -5406,16 +5426,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 143.51) (xy 139.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa7995e-99fe-4b43-b354-48caf459cb70")
-	)
-	(wire
-		(pts
 			(xy 138.43 156.21) (xy 163.83 156.21)
 		)
 		(stroke
@@ -5463,6 +5473,16 @@
 			(type default)
 		)
 		(uuid "b3b5304c-b5ea-4ff6-a2e1-c79d7e04ffa3")
+	)
+	(wire
+		(pts
+			(xy 97.79 135.89) (xy 97.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b564437c-9afd-44d9-86b4-71157c3cb800")
 	)
 	(wire
 		(pts
@@ -5663,16 +5683,6 @@
 			(type default)
 		)
 		(uuid "e6bd3a5b-4666-42ed-be9c-444d3738df1c")
-	)
-	(wire
-		(pts
-			(xy 163.83 151.13) (xy 139.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e5419f-d448-44e8-af56-6511b30afaea")
 	)
 	(wire
 		(pts

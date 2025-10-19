@@ -34,9 +34,50 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
+		(aux_axis_origin 147.955 108.585)
+		(grid_origin 147.955 108.585)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -438,6 +479,17 @@
 			(uuid "69e11bf1-07d6-4034-b440-7d68bbe82f71")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -780,6 +832,17 @@
 			(uuid "bc07f466-7372-4084-bf00-6f423926b191")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -1122,6 +1185,17 @@
 			(uuid "a3a8cead-58e1-42aa-8a8e-e565244692c6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -1327,7 +1401,7 @@
 		)
 		(fp_line
 			(start -2.50952 2.31902)
-			(end -2.509519 2.5908)
+			(end -2.509518 2.5908)
 			(stroke
 				(width 0.2032)
 				(type solid)
@@ -1336,7 +1410,7 @@
 			(uuid "28be46ac-ecdd-4cb8-9a04-68756f9269d1")
 		)
 		(fp_line
-			(start -2.509519 2.5908)
+			(start -2.509518 2.5908)
 			(end -2.45872 2.5908)
 			(stroke
 				(width 0.2032)
@@ -1464,6 +1538,17 @@
 			(uuid "bbaf0f90-3e0a-491d-8b5c-60137f3f5717")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -1806,6 +1891,17 @@
 			(uuid "ca84ed55-a247-4713-b716-b7e4b494a6f5")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -2148,6 +2244,17 @@
 			(uuid "49505988-3414-43ae-8add-8545ac36d981")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -2490,6 +2597,17 @@
 			(uuid "781c9514-a1d7-4e15-a08d-d4dcfc290a21")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -2832,6 +2950,17 @@
 			(uuid "87dcf8d2-0945-445d-96a9-ed21c3a7a662")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -3174,6 +3303,17 @@
 			(uuid "9b2eb092-a148-47c3-9b95-8a95366ba859")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -3516,6 +3656,17 @@
 			(uuid "431d4ef3-4ceb-4e65-873d-e35660538fcd")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -3858,6 +4009,17 @@
 			(uuid "c133e4a4-220f-4afc-81ef-61750d1b7644")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "SoftEgg:LED RING 16 WS2812B 48mm standalone"
 		(layer "F.Cu")
@@ -4935,6 +5097,17 @@
 			(uuid "0d1afdff-8e1f-4362-8a8c-b35566f1e8b8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -5277,6 +5450,17 @@
 			(uuid "fd581b02-bdf8-4c6f-b4d6-9ea27badd964")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -5619,6 +5803,17 @@
 			(uuid "0bdc39c9-4e32-446e-99d0-8f12cfb65723")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -5961,6 +6156,17 @@
 			(uuid "c934448a-dc10-4226-aed7-657ee87f2b28")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "WS2812B:WS2812B"
 		(layer "F.Cu")
@@ -6303,6 +6509,17 @@
 			(uuid "bd3a7232-060d-42ea-8a00-e6fbe98432d1")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
